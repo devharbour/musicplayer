@@ -1,25 +1,12 @@
 $(document).ready(function () {
     // Sample data for music files (name, category, album image, mp3 path)
     const musicData = [
-
-             {
-            title: "Chris Bell - Elevator To Heaven",
-            category: "jazz",
-            albumImage: "assets/images/bluejazz.jpg",
-            mp3File: "assets/music/Chris Bell - Elevator To Heaven.mp3"
-        },
        
         {
             title: "Ervin Bushati",
             category: "shkodrane",
             albumImage: "assets/images/eb.png",
             mp3File: "assets/music/ervinbushati.mp3"
-        },
-        {
-            title: "Rosela Gjylbegu",
-            category: "shkodrane",
-            albumImage: "assets/images/ro.jpg",
-            mp3File: "assets/music/roselagjylbegu.mp3"
         },
 
         {
