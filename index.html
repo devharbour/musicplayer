@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP3 Music Player</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header>
+            <h1>MP3 Music Player</h1>
+        </header>
+
+        <!-- Category Filter -->
+        <div class="filter">
+            <label for="category">Filter by Category:</label>
+            <select id="category" name="category">
+                <option value="all">All</option>
+                <option value="shkodrane">Shkodrane</option>
+                <option value="jazz">Jazz</option>
+                <option value="pop">Pop</option>
+            </select>
+        </div>
+
+        <!-- Music List -->
+        <div id="music-list" class="music-list">
+            <!-- Music items will be injected here by JavaScript -->
+        </div>
+
+        <!-- Audio Player -->
+        <div class="player">
+            <img id="album-art" src="" alt="Album Art" />
+            <div id="music-info">
+                <h3 id="music-title">Select a song</h3>
+            </div>
+            <audio id="audio-player" controls>
+                <source id="audio-source" src="" type="audio/mp3" />
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
