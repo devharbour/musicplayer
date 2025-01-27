@@ -28,6 +28,12 @@ $(document).ready(function () {
             albumImage: "assets/images/peaky.jpg",
             mp3File: "assets/music/Peaky2.mp3"
         },   
+         {
+            title: "Peaky Blinders Laura Marling - A Hard Rain's A Gonna Fall  Peaky Blinders?",
+            category: "pop",
+            albumImage: "assets/images/peaky.jpg",
+            mp3File: "/https://drive.google.com/file/d/189N3QxwMIfkZ0yoQ1ct4KP6f6SZbMMEA/view?usp=drive_link"
+        }, 
     ];
 
     // Function to render the music list based on category
