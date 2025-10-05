@@ -32,7 +32,7 @@ $(document).ready(function () {
             title: "Peaky Blinders Laura Marling - A Hard Rain's A Gonna Fall  Peaky Blinders?",
             category: "pop",
             albumImage: "assets/images/peaky.jpg",
-            mp3File: "https://docs.google.com/uc?export=download&id=189N3QxwMIfkZ0yoQ1ct4KP6f6SZbMMEA" 
+            mp3File: "https://drive.google.com/uc?export=open&id=189N3QxwMIfkZ0yoQ1ct4KP6f6SZbMMEA" 
         }, 
     ];
 
@@ -75,6 +75,7 @@ $(document).ready(function () {
         $("#audio-player")[0].play(); // Play the selected song
     });
 });
+
 
 
 
